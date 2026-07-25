@@ -1863,13 +1863,13 @@ public partial class MainWindow : FluentWindow
 
         if (cameraActive)
         {
-            MiniPrivacyDot.Background = new SolidColorBrush(Color.FromArgb(255, 255, 159, 10));
+            MiniPrivacyDot.Background = new SolidColorBrush(Color.FromArgb(255, 255, 69, 58));
             MiniPrivacyDot.Visibility = Visibility.Visible;
             ToolTipService.SetToolTip(MiniPrivacyDot, "Camera in use");
         }
         else if (micActive)
         {
-            MiniPrivacyDot.Background = new SolidColorBrush(Color.FromArgb(255, 255, 69, 58));
+            MiniPrivacyDot.Background = new SolidColorBrush(Color.FromArgb(255, 255, 159, 10));
             MiniPrivacyDot.Visibility = Visibility.Visible;
             ToolTipService.SetToolTip(MiniPrivacyDot, "Microphone in use");
         }
